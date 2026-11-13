@@ -1,10 +1,18 @@
-HELP.md
+### Maven ###
 target/
+HELP.md
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+hs_err_pid*
+
+### STS / Eclipse ###
 .apt_generated
 .classpath
 .factorypath
@@ -31,3 +39,8 @@ build/
 
 ### VS Code ###
 .vscode/
+.github/modernize/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
